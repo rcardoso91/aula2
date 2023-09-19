@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema Solar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Quiz sobre o Sistema Solar</h1>
+  </header>
+
+  <main>
+    <!-- Pergunta 1 -->
+    <form action="" method="get">
+      <h2>Pergunta 1:</h2>
+      <p>Quantos planetas existem no Sistema Solar?</p>
+      <input type="radio" name="pergunta1" value="a" id="opcao1a">
+      <label for="opcao1a">a) 7</label>
+
+      <input type="radio" name="pergunta1" value="b" id="opcao1b">
+      <label for="opcao1b">b) 9</label>
+
+      <input type="radio" name="pergunta1" value="c" id="opcao1c">
+      <label for="opcao1c">c) 9</label>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Pergunta 2 -->
+    <form action="" method="get">
+      <h2>Pergunta 2:</h2>
+      <p>Quais destes são planetas gasosos? Selecione todas as opções corretas.</p>
+      <input type="checkbox" name="pergunta2[]" value="Marte" id="opcao2b">
+      <label for="opcao2b">Marte</label>
+
+      <input type="checkbox" name="pergunta2[]" value="Júpiter" id="opcao2d">
+      <label for="opcao2d">Júpiter</label>
+
+      <input type="checkbox" name="pergunta2[]" value="Vênus" id="opcao2e">
+      <label for="opcao2e">Vênus</label>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Pergunta 3 -->
+    <form action="" method="get">
+      <h2>Pergunta 3:</h2>
+      <p>Qual é a maior lua de Saturno?</p>
+      <select name="pergunta3">
+        <option value="Titan">Titan</option>
+        <option value="Enceladus">Europa</option>
+        <option value="Mimas">Lua de Ganimedes</option>
+      </select>
+      <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Pergunta 4 -->
+    <form action="" method="get">
+      <h2>Pergunta 4:</h2>
+      <p>Em que ano a sonda Voyager 2 foi lançada para explorar os planetas do Sistema Solar?</p>
+      <input type="range" id="ano" name="ano" min="1900" max="2023" step="1">
+      <output for="ano" id="valorSelecionado"></output>
+      <input type="submit" value="Enviar">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Sistema Solar</p>
+  </footer>
+</body>
+</html>
